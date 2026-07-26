@@ -1,0 +1,42 @@
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: ============================================================
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: STARTING CODEBERT CODE ORIGIN INFERENCE PIPELINE
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: ============================================================
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: Checking target file path: files\a.cpp
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: Reading file contents (extension: .cpp)...
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: Successfully loaded file. Length: 1580 characters, 58 lines.
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: Loading saved model artifacts from directory: ./saved_model
+[2026-07-25 18:35:00] [INFO] [CodeBERT_Inference]: Inference execution device: CUDA
+[2026-07-25 18:35:01] [INFO] [CodeBERT_Inference]: Tokenizing input code snippet...
+[2026-07-25 18:35:01] [INFO] [CodeBERT_Inference]: Tokenization complete. Total active tokens (non-padded): 512/512
+[2026-07-25 18:35:01] [INFO] [CodeBERT_Inference]: Executing model forward pass...
+[2026-07-25 18:35:01] [INFO] [CodeBERT_Inference]: Raw Logits: [5.370771408081055, -5.389552116394043]
+[2026-07-25 18:35:01] [INFO] [CodeBERT_Inference]: Calculated Class Probabilities -> Human: 100.00%, AI: 0.00%
+[2026-07-25 18:35:01] [INFO] [CodeBERT_Inference]: Final Prediction: Human-generated (Confidence: 100.00%)
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: ============================================================
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: STARTING CODEBERT CODE ORIGIN INFERENCE PIPELINE
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: ============================================================
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: Checking target file path: files\aa.cpp
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: Reading file contents (extension: .cpp)...
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: Successfully loaded file. Length: 892 characters, 34 lines.
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: Loading saved model artifacts from directory: ./saved_model
+[2026-07-25 18:35:13] [INFO] [CodeBERT_Inference]: Inference execution device: CUDA
+[2026-07-25 18:35:14] [INFO] [CodeBERT_Inference]: Tokenizing input code snippet...
+[2026-07-25 18:35:14] [INFO] [CodeBERT_Inference]: Tokenization complete. Total active tokens (non-padded): 512/512
+[2026-07-25 18:35:14] [INFO] [CodeBERT_Inference]: Executing model forward pass...
+[2026-07-25 18:35:14] [INFO] [CodeBERT_Inference]: Raw Logits: [5.519431114196777, -5.4971771240234375]
+[2026-07-25 18:35:14] [INFO] [CodeBERT_Inference]: Calculated Class Probabilities -> Human: 100.00%, AI: 0.00%
+[2026-07-25 18:35:14] [INFO] [CodeBERT_Inference]: Final Prediction: Human-generated (Confidence: 100.00%)
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: ============================================================
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: STARTING CODEBERT CODE ORIGIN INFERENCE PIPELINE
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: ============================================================
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: Checking target file path: files\h.cpp
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: Reading file contents (extension: .cpp)...
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: Successfully loaded file. Length: 272 characters, 11 lines.
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: Loading saved model artifacts from directory: ./saved_model
+[2026-07-25 18:35:27] [INFO] [CodeBERT_Inference]: Inference execution device: CUDA
+[2026-07-25 18:35:28] [INFO] [CodeBERT_Inference]: Tokenizing input code snippet...
+[2026-07-25 18:35:28] [INFO] [CodeBERT_Inference]: Tokenization complete. Total active tokens (non-padded): 147/512
+[2026-07-25 18:35:28] [INFO] [CodeBERT_Inference]: Executing model forward pass...
+[2026-07-25 18:35:28] [INFO] [CodeBERT_Inference]: Raw Logits: [5.516990661621094, -5.443148612976074]
+[2026-07-25 18:35:28] [INFO] [CodeBERT_Inference]: Calculated Class Probabilities -> Human: 100.00%, AI: 0.00%
+[2026-07-25 18:35:28] [INFO] [CodeBERT_Inference]: Final Prediction: Human-generated (Confidence: 100.00%)

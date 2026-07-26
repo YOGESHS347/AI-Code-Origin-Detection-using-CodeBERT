@@ -1,0 +1,410 @@
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: STARTING CODEBERT AI VS. HUMAN TRAINING PIPELINE
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: Target Backbone Model : microsoft/codebert-base
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: Save Directory        : ./saved_model
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: Epochs / Batch Size   : 3 / 16
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: Learning Rate         : 2e-05
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: Max Sequence Length   : 512
+[2026-07-25 16:03:41] [INFO] [CodeBERT_Trainer]: Loading AI dataset from: ./dataset/ai/ai_dataset.csv
+[2026-07-25 16:03:42] [INFO] [CodeBERT_Trainer]: Loading Human dataset from: ./dataset/human/human_dataset.csv
+[2026-07-25 16:03:42] [INFO] [CodeBERT_Trainer]: Dataset successfully loaded. Total samples: 20000
+[2026-07-25 16:03:42] [INFO] [CodeBERT_Trainer]: Class distribution:
+label_num
+AI (1)       10000
+Human (0)    10000
+Name: count, dtype: int64
+[2026-07-25 16:03:42] [INFO] [CodeBERT_Trainer]: Language breakdown:
+language
+Python    6668
+Java      6666
+C++       6666
+Name: count, dtype: int64
+[2026-07-25 16:03:42] [INFO] [CodeBERT_Trainer]: Training Samples: 17000 | Validation Samples: 3000
+[2026-07-25 16:03:42] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Tokenizer: microsoft/codebert-base
+[2026-07-25 16:03:44] [INFO] [CodeBERT_Trainer]: Tokenizing training text sequences...
+[2026-07-25 16:03:45] [INFO] [CodeBERT_Trainer]: Tokenizing validation text sequences...
+[2026-07-25 16:03:46] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Model: microsoft/codebert-base
+[2026-07-25 16:03:47] [INFO] [CodeBERT_Trainer]: Execution Device detected: CPU
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: STARTING CODEBERT AI VS. HUMAN TRAINING PIPELINE
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Target Backbone Model : microsoft/codebert-base
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Save Directory        : ./saved_model
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Epochs / Batch Size   : 3 / 16
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Learning Rate         : 2e-05
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Max Sequence Length   : 512
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Loading AI dataset from: ./dataset/ai/ai_dataset.csv
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Loading Human dataset from: ./dataset/human/human_dataset.csv
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Dataset successfully loaded. Total samples: 20000
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Class distribution:
+label_num
+AI (1)       10000
+Human (0)    10000
+Name: count, dtype: int64
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Language breakdown:
+language
+Python    6668
+Java      6666
+C++       6666
+Name: count, dtype: int64
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Training Samples: 17000 | Validation Samples: 3000
+[2026-07-25 16:06:52] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Tokenizer: microsoft/codebert-base
+[2026-07-25 16:06:54] [INFO] [CodeBERT_Trainer]: Tokenizing training text sequences...
+[2026-07-25 16:06:55] [INFO] [CodeBERT_Trainer]: Tokenizing validation text sequences...
+[2026-07-25 16:06:55] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Model: microsoft/codebert-base
+[2026-07-25 16:06:57] [INFO] [CodeBERT_Trainer]: Execution Device detected: CPU
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: STARTING CODEBERT AI VS. HUMAN TRAINING PIPELINE
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Target Backbone Model : microsoft/codebert-base
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Save Directory        : ./saved_model
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Epochs / Batch Size   : 3 / 16
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Learning Rate         : 2e-05
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Max Sequence Length   : 512
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Loading AI dataset from: ./dataset/ai/ai_dataset.csv
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Loading Human dataset from: ./dataset/human/human_dataset.csv
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Dataset successfully loaded. Total samples: 20000
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Class distribution:
+label_num
+AI (1)       10000
+Human (0)    10000
+Name: count, dtype: int64
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Language breakdown:
+language
+Python    6668
+Java      6666
+C++       6666
+Name: count, dtype: int64
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Training Samples: 17000 | Validation Samples: 3000
+[2026-07-25 16:08:06] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Tokenizer: microsoft/codebert-base
+[2026-07-25 16:08:08] [INFO] [CodeBERT_Trainer]: Tokenizing training text sequences...
+[2026-07-25 16:08:09] [INFO] [CodeBERT_Trainer]: Tokenizing validation text sequences...
+[2026-07-25 16:08:10] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Model: microsoft/codebert-base
+[2026-07-25 16:08:11] [INFO] [CodeBERT_Trainer]: Execution Device detected: CPU
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: STARTING CODEBERT AI VS. HUMAN TRAINING PIPELINE
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: Target Backbone Model : microsoft/codebert-base
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: Save Directory        : ./saved_model
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: Epochs / Batch Size   : 3 / 16
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: Learning Rate         : 2e-05
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: Max Sequence Length   : 512
+[2026-07-25 16:09:00] [INFO] [CodeBERT_Trainer]: Loading AI dataset from: ./dataset/ai/ai_dataset.csv
+[2026-07-25 16:09:01] [INFO] [CodeBERT_Trainer]: Loading Human dataset from: ./dataset/human/human_dataset.csv
+[2026-07-25 16:09:01] [INFO] [CodeBERT_Trainer]: Dataset successfully loaded. Total samples: 20000
+[2026-07-25 16:09:01] [INFO] [CodeBERT_Trainer]: Class distribution:
+label_num
+AI (1)       10000
+Human (0)    10000
+Name: count, dtype: int64
+[2026-07-25 16:09:01] [INFO] [CodeBERT_Trainer]: Language breakdown:
+language
+Python    6668
+Java      6666
+C++       6666
+Name: count, dtype: int64
+[2026-07-25 16:09:01] [INFO] [CodeBERT_Trainer]: Training Samples: 17000 | Validation Samples: 3000
+[2026-07-25 16:09:01] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Tokenizer: microsoft/codebert-base
+[2026-07-25 16:09:02] [INFO] [CodeBERT_Trainer]: Tokenizing training text sequences...
+[2026-07-25 16:09:04] [INFO] [CodeBERT_Trainer]: Tokenizing validation text sequences...
+[2026-07-25 16:09:04] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Model: microsoft/codebert-base
+[2026-07-25 16:09:05] [INFO] [CodeBERT_Trainer]: Execution Device detected: CPU
+[2026-07-25 16:09:05] [INFO] [CodeBERT_Trainer]: Initiating model training loop...
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: STARTING CODEBERT AI VS. HUMAN TRAINING PIPELINE
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Target Backbone Model : microsoft/codebert-base
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Save Directory        : ./saved_model
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Epochs / Batch Size   : 3 / 16
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Learning Rate         : 2e-05
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Max Sequence Length   : 512
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Loading AI dataset from: ./dataset/ai/ai_dataset.csv
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Loading Human dataset from: ./dataset/human/human_dataset.csv
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Dataset successfully loaded. Total samples: 20000
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Class distribution:
+label_num
+AI (1)       10000
+Human (0)    10000
+Name: count, dtype: int64
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Language breakdown:
+language
+Python    6668
+Java      6666
+C++       6666
+Name: count, dtype: int64
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Training Samples: 17000 | Validation Samples: 3000
+[2026-07-25 17:29:07] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Tokenizer: microsoft/codebert-base
+[2026-07-25 17:29:10] [INFO] [CodeBERT_Trainer]: Tokenizing training text sequences...
+[2026-07-25 17:29:11] [INFO] [CodeBERT_Trainer]: Tokenizing validation text sequences...
+[2026-07-25 17:29:11] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Model: microsoft/codebert-base
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: STARTING CODEBERT AI VS. HUMAN TRAINING PIPELINE
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Target Backbone Model : microsoft/codebert-base
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Save Directory        : ./saved_model
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Epochs / Batch Size   : 3 / 16
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Learning Rate         : 2e-05
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Max Sequence Length   : 512
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Loading AI dataset from: ./dataset/ai/ai_dataset.csv
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Loading Human dataset from: ./dataset/human/human_dataset.csv
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Dataset successfully loaded. Total samples: 20000
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Class distribution:
+label_num
+AI (1)       10000
+Human (0)    10000
+Name: count, dtype: int64
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Language breakdown:
+language
+Python    6668
+Java      6666
+C++       6666
+Name: count, dtype: int64
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Training Samples: 17000 | Validation Samples: 3000
+[2026-07-25 17:50:43] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Tokenizer: microsoft/codebert-base
+[2026-07-25 17:50:45] [INFO] [CodeBERT_Trainer]: Tokenizing training text sequences...
+[2026-07-25 17:50:46] [INFO] [CodeBERT_Trainer]: Tokenizing validation text sequences...
+[2026-07-25 17:50:47] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Model: microsoft/codebert-base
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: STARTING CODEBERT AI VS. HUMAN TRAINING PIPELINE
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: ============================================================
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Target Backbone Model : microsoft/codebert-base
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Save Directory        : ./saved_model
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Epochs / Batch Size   : 3 / 16
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Learning Rate         : 2e-05
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Max Sequence Length   : 512
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Loading AI dataset from: ./dataset/ai/ai_dataset.csv
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Loading Human dataset from: ./dataset/human/human_dataset.csv
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Dataset successfully loaded. Total samples: 20000
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Class distribution:
+label_num
+AI (1)       10000
+Human (0)    10000
+Name: count, dtype: int64
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Language breakdown:
+language
+Python    6668
+Java      6666
+C++       6666
+Name: count, dtype: int64
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Training Samples: 17000 | Validation Samples: 3000
+[2026-07-25 17:52:03] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Tokenizer: microsoft/codebert-base
+[2026-07-25 17:52:07] [INFO] [CodeBERT_Trainer]: Tokenizing training text sequences...
+[2026-07-25 17:52:08] [INFO] [CodeBERT_Trainer]: Tokenizing validation text sequences...
+[2026-07-25 17:52:08] [INFO] [CodeBERT_Trainer]: Loading Hugging Face Model: microsoft/codebert-base
+[2026-07-25 17:52:12] [INFO] [CodeBERT_Trainer]: Execution Device detected: CUDA
+[2026-07-25 17:52:13] [INFO] [CodeBERT_Trainer]: Initiating model training loop...
+[2026-07-25 17:52:25] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP    20 | Epoch 0.02] Training Loss: 0.5576 | LR: 1.99e-05
+[2026-07-25 17:52:37] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP    40 | Epoch 0.04] Training Loss: 0.0714 | LR: 1.98e-05
+[2026-07-25 17:52:49] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP    60 | Epoch 0.06] Training Loss: 0.0026 | LR: 1.96e-05
+[2026-07-25 17:53:02] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP    80 | Epoch 0.08] Training Loss: 0.0010 | LR: 1.95e-05
+[2026-07-25 17:53:16] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   100 | Epoch 0.09] Training Loss: 0.0007 | LR: 1.94e-05
+[2026-07-25 17:53:29] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   120 | Epoch 0.11] Training Loss: 0.0006 | LR: 1.93e-05
+[2026-07-25 17:53:42] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   140 | Epoch 0.13] Training Loss: 0.0005 | LR: 1.91e-05
+[2026-07-25 17:53:56] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   160 | Epoch 0.15] Training Loss: 0.0004 | LR: 1.90e-05
+[2026-07-25 17:54:10] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   180 | Epoch 0.17] Training Loss: 0.0004 | LR: 1.89e-05
+[2026-07-25 17:54:23] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   200 | Epoch 0.19] Training Loss: 0.0003 | LR: 1.88e-05
+[2026-07-25 17:54:36] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   220 | Epoch 0.21] Training Loss: 0.0003 | LR: 1.86e-05
+[2026-07-25 17:54:49] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   240 | Epoch 0.23] Training Loss: 0.0003 | LR: 1.85e-05
+[2026-07-25 17:55:03] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   260 | Epoch 0.24] Training Loss: 0.0002 | LR: 1.84e-05
+[2026-07-25 17:55:16] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   280 | Epoch 0.26] Training Loss: 0.0002 | LR: 1.83e-05
+[2026-07-25 17:55:29] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   300 | Epoch 0.28] Training Loss: 0.0002 | LR: 1.81e-05
+[2026-07-25 17:55:42] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   320 | Epoch 0.30] Training Loss: 0.0002 | LR: 1.80e-05
+[2026-07-25 17:55:56] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   340 | Epoch 0.32] Training Loss: 0.0002 | LR: 1.79e-05
+[2026-07-25 17:56:09] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   360 | Epoch 0.34] Training Loss: 0.0001 | LR: 1.77e-05
+[2026-07-25 17:56:23] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   380 | Epoch 0.36] Training Loss: 0.0001 | LR: 1.76e-05
+[2026-07-25 17:56:36] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   400 | Epoch 0.38] Training Loss: 0.0001 | LR: 1.75e-05
+[2026-07-25 17:56:50] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   420 | Epoch 0.40] Training Loss: 0.0001 | LR: 1.74e-05
+[2026-07-25 17:57:03] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   440 | Epoch 0.41] Training Loss: 0.0001 | LR: 1.72e-05
+[2026-07-25 17:57:15] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   460 | Epoch 0.43] Training Loss: 0.0001 | LR: 1.71e-05
+[2026-07-25 17:57:26] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   480 | Epoch 0.45] Training Loss: 0.0001 | LR: 1.70e-05
+[2026-07-25 17:57:39] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   500 | Epoch 0.47] Training Loss: 0.0001 | LR: 1.69e-05
+[2026-07-25 17:57:52] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   520 | Epoch 0.49] Training Loss: 0.0001 | LR: 1.67e-05
+[2026-07-25 17:58:06] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   540 | Epoch 0.51] Training Loss: 0.0001 | LR: 1.66e-05
+[2026-07-25 17:58:19] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   560 | Epoch 0.53] Training Loss: 0.0001 | LR: 1.65e-05
+[2026-07-25 17:58:33] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   580 | Epoch 0.55] Training Loss: 0.0001 | LR: 1.64e-05
+[2026-07-25 17:58:46] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   600 | Epoch 0.56] Training Loss: 0.0001 | LR: 1.62e-05
+[2026-07-25 17:59:02] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   620 | Epoch 0.58] Training Loss: 0.0001 | LR: 1.61e-05
+[2026-07-25 17:59:19] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   640 | Epoch 0.60] Training Loss: 0.0001 | LR: 1.60e-05
+[2026-07-25 17:59:37] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   660 | Epoch 0.62] Training Loss: 0.0001 | LR: 1.59e-05
+[2026-07-25 17:59:54] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   680 | Epoch 0.64] Training Loss: 0.0001 | LR: 1.57e-05
+[2026-07-25 18:00:09] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   700 | Epoch 0.66] Training Loss: 0.0001 | LR: 1.56e-05
+[2026-07-25 18:00:23] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   720 | Epoch 0.68] Training Loss: 0.0001 | LR: 1.55e-05
+[2026-07-25 18:00:38] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   740 | Epoch 0.70] Training Loss: 0.0001 | LR: 1.54e-05
+[2026-07-25 18:00:53] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   760 | Epoch 0.71] Training Loss: 0.0001 | LR: 1.52e-05
+[2026-07-25 18:01:08] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   780 | Epoch 0.73] Training Loss: 0.0001 | LR: 1.51e-05
+[2026-07-25 18:01:23] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   800 | Epoch 0.75] Training Loss: 0.0001 | LR: 1.50e-05
+[2026-07-25 18:01:37] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   820 | Epoch 0.77] Training Loss: 0.0000 | LR: 1.49e-05
+[2026-07-25 18:01:50] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   840 | Epoch 0.79] Training Loss: 0.0000 | LR: 1.47e-05
+[2026-07-25 18:02:04] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   860 | Epoch 0.81] Training Loss: 0.0000 | LR: 1.46e-05
+[2026-07-25 18:02:16] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   880 | Epoch 0.83] Training Loss: 0.0000 | LR: 1.45e-05
+[2026-07-25 18:02:28] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   900 | Epoch 0.85] Training Loss: 0.0000 | LR: 1.44e-05
+[2026-07-25 18:02:41] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   920 | Epoch 0.87] Training Loss: 0.0000 | LR: 1.42e-05
+[2026-07-25 18:02:53] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   940 | Epoch 0.88] Training Loss: 0.0000 | LR: 1.41e-05
+[2026-07-25 18:03:05] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   960 | Epoch 0.90] Training Loss: 0.0000 | LR: 1.40e-05
+[2026-07-25 18:03:17] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP   980 | Epoch 0.92] Training Loss: 0.0000 | LR: 1.39e-05
+[2026-07-25 18:03:30] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1000 | Epoch 0.94] Training Loss: 0.0000 | LR: 1.37e-05
+[2026-07-25 18:03:42] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1020 | Epoch 0.96] Training Loss: 0.0000 | LR: 1.36e-05
+[2026-07-25 18:03:54] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1040 | Epoch 0.98] Training Loss: 0.0000 | LR: 1.35e-05
+[2026-07-25 18:04:07] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1060 | Epoch 1.00] Training Loss: 0.0000 | LR: 1.34e-05
+[2026-07-25 18:04:33] [INFO] [CodeBERT_Trainer]: 
+=================================================================
+[2026-07-25 18:04:33] [INFO] [CodeBERT_Trainer]:  >>> REAL-TIME EVALUATION AT EPOCH 1.0 (Step 1063)
+[2026-07-25 18:04:33] [INFO] [CodeBERT_Trainer]: -----------------------------------------------------------------
+[2026-07-25 18:04:33] [INFO] [CodeBERT_Trainer]:   • Validation Loss : 0.0000
+[2026-07-25 18:04:33] [INFO] [CodeBERT_Trainer]:   • Accuracy        : 100.00%  (1.0000)  | F1: 100.00% (1.0000)
+[2026-07-25 18:04:33] [INFO] [CodeBERT_Trainer]:   • Precision       : 100.00%  (1.0000)  | Recall: 100.00% (1.0000)
+[2026-07-25 18:04:33] [INFO] [CodeBERT_Trainer]: =================================================================
+
+[2026-07-25 18:04:46] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1080 | Epoch 1.02] Training Loss: 0.0000 | LR: 1.32e-05
+[2026-07-25 18:04:58] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1100 | Epoch 1.03] Training Loss: 0.0000 | LR: 1.31e-05
+[2026-07-25 18:05:11] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1120 | Epoch 1.05] Training Loss: 0.0000 | LR: 1.30e-05
+[2026-07-25 18:05:23] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1140 | Epoch 1.07] Training Loss: 0.0000 | LR: 1.29e-05
+[2026-07-25 18:05:35] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1160 | Epoch 1.09] Training Loss: 0.0000 | LR: 1.27e-05
+[2026-07-25 18:05:47] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1180 | Epoch 1.11] Training Loss: 0.0000 | LR: 1.26e-05
+[2026-07-25 18:05:59] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1200 | Epoch 1.13] Training Loss: 0.0000 | LR: 1.25e-05
+[2026-07-25 18:06:12] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1220 | Epoch 1.15] Training Loss: 0.0000 | LR: 1.24e-05
+[2026-07-25 18:06:24] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1240 | Epoch 1.17] Training Loss: 0.0000 | LR: 1.22e-05
+[2026-07-25 18:06:36] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1260 | Epoch 1.19] Training Loss: 0.0000 | LR: 1.21e-05
+[2026-07-25 18:06:48] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1280 | Epoch 1.20] Training Loss: 0.0000 | LR: 1.20e-05
+[2026-07-25 18:07:00] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1300 | Epoch 1.22] Training Loss: 0.0000 | LR: 1.19e-05
+[2026-07-25 18:07:12] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1320 | Epoch 1.24] Training Loss: 0.0000 | LR: 1.17e-05
+[2026-07-25 18:07:24] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1340 | Epoch 1.26] Training Loss: 0.0000 | LR: 1.16e-05
+[2026-07-25 18:07:37] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1360 | Epoch 1.28] Training Loss: 0.0000 | LR: 1.15e-05
+[2026-07-25 18:07:49] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1380 | Epoch 1.30] Training Loss: 0.0000 | LR: 1.14e-05
+[2026-07-25 18:08:01] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1400 | Epoch 1.32] Training Loss: 0.0000 | LR: 1.12e-05
+[2026-07-25 18:08:13] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1420 | Epoch 1.34] Training Loss: 0.0000 | LR: 1.11e-05
+[2026-07-25 18:08:26] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1440 | Epoch 1.35] Training Loss: 0.0000 | LR: 1.10e-05
+[2026-07-25 18:08:38] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1460 | Epoch 1.37] Training Loss: 0.0000 | LR: 1.08e-05
+[2026-07-25 18:08:50] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1480 | Epoch 1.39] Training Loss: 0.0000 | LR: 1.07e-05
+[2026-07-25 18:09:03] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1500 | Epoch 1.41] Training Loss: 0.0000 | LR: 1.06e-05
+[2026-07-25 18:09:15] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1520 | Epoch 1.43] Training Loss: 0.0000 | LR: 1.05e-05
+[2026-07-25 18:09:29] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1540 | Epoch 1.45] Training Loss: 0.0000 | LR: 1.03e-05
+[2026-07-25 18:09:42] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1560 | Epoch 1.47] Training Loss: 0.0000 | LR: 1.02e-05
+[2026-07-25 18:09:55] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1580 | Epoch 1.49] Training Loss: 0.0000 | LR: 1.01e-05
+[2026-07-25 18:10:07] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1600 | Epoch 1.51] Training Loss: 0.0000 | LR: 9.97e-06
+[2026-07-25 18:10:20] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1620 | Epoch 1.52] Training Loss: 0.0000 | LR: 9.85e-06
+[2026-07-25 18:10:34] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1640 | Epoch 1.54] Training Loss: 0.0000 | LR: 9.72e-06
+[2026-07-25 18:10:47] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1660 | Epoch 1.56] Training Loss: 0.0000 | LR: 9.60e-06
+[2026-07-25 18:10:59] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1680 | Epoch 1.58] Training Loss: 0.0000 | LR: 9.47e-06
+[2026-07-25 18:11:11] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1700 | Epoch 1.60] Training Loss: 0.0000 | LR: 9.34e-06
+[2026-07-25 18:11:23] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1720 | Epoch 1.62] Training Loss: 0.0000 | LR: 9.22e-06
+[2026-07-25 18:11:38] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1740 | Epoch 1.64] Training Loss: 0.0000 | LR: 9.09e-06
+[2026-07-25 18:11:50] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1760 | Epoch 1.66] Training Loss: 0.0000 | LR: 8.97e-06
+[2026-07-25 18:12:03] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1780 | Epoch 1.67] Training Loss: 0.0000 | LR: 8.84e-06
+[2026-07-25 18:12:15] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1800 | Epoch 1.69] Training Loss: 0.0000 | LR: 8.72e-06
+[2026-07-25 18:12:27] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1820 | Epoch 1.71] Training Loss: 0.0000 | LR: 8.59e-06
+[2026-07-25 18:12:39] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1840 | Epoch 1.73] Training Loss: 0.0000 | LR: 8.47e-06
+[2026-07-25 18:12:52] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1860 | Epoch 1.75] Training Loss: 0.0000 | LR: 8.34e-06
+[2026-07-25 18:13:04] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1880 | Epoch 1.77] Training Loss: 0.0000 | LR: 8.22e-06
+[2026-07-25 18:13:16] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1900 | Epoch 1.79] Training Loss: 0.0000 | LR: 8.09e-06
+[2026-07-25 18:13:29] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1920 | Epoch 1.81] Training Loss: 0.0000 | LR: 7.96e-06
+[2026-07-25 18:13:41] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1940 | Epoch 1.83] Training Loss: 0.0000 | LR: 7.84e-06
+[2026-07-25 18:13:53] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1960 | Epoch 1.84] Training Loss: 0.0000 | LR: 7.71e-06
+[2026-07-25 18:14:05] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  1980 | Epoch 1.86] Training Loss: 0.0000 | LR: 7.59e-06
+[2026-07-25 18:14:18] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2000 | Epoch 1.88] Training Loss: 0.0000 | LR: 7.46e-06
+[2026-07-25 18:14:30] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2020 | Epoch 1.90] Training Loss: 0.0000 | LR: 7.34e-06
+[2026-07-25 18:14:42] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2040 | Epoch 1.92] Training Loss: 0.0000 | LR: 7.21e-06
+[2026-07-25 18:14:55] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2060 | Epoch 1.94] Training Loss: 0.0000 | LR: 7.09e-06
+[2026-07-25 18:15:07] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2080 | Epoch 1.96] Training Loss: 0.0000 | LR: 6.96e-06
+[2026-07-25 18:15:19] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2100 | Epoch 1.98] Training Loss: 0.0000 | LR: 6.84e-06
+[2026-07-25 18:15:31] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2120 | Epoch 1.99] Training Loss: 0.0000 | LR: 6.71e-06
+[2026-07-25 18:16:00] [INFO] [CodeBERT_Trainer]: 
+=================================================================
+[2026-07-25 18:16:00] [INFO] [CodeBERT_Trainer]:  >>> REAL-TIME EVALUATION AT EPOCH 2.0 (Step 2126)
+[2026-07-25 18:16:00] [INFO] [CodeBERT_Trainer]: -----------------------------------------------------------------
+[2026-07-25 18:16:00] [INFO] [CodeBERT_Trainer]:   • Validation Loss : 0.0000
+[2026-07-25 18:16:00] [INFO] [CodeBERT_Trainer]:   • Accuracy        : 100.00%  (1.0000)  | F1: 100.00% (1.0000)
+[2026-07-25 18:16:00] [INFO] [CodeBERT_Trainer]:   • Precision       : 100.00%  (1.0000)  | Recall: 100.00% (1.0000)
+[2026-07-25 18:16:00] [INFO] [CodeBERT_Trainer]: =================================================================
+
+[2026-07-25 18:16:11] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2140 | Epoch 2.01] Training Loss: 0.0000 | LR: 6.59e-06
+[2026-07-25 18:16:23] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2160 | Epoch 2.03] Training Loss: 0.0000 | LR: 6.46e-06
+[2026-07-25 18:16:36] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2180 | Epoch 2.05] Training Loss: 0.0000 | LR: 6.33e-06
+[2026-07-25 18:16:48] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2200 | Epoch 2.07] Training Loss: 0.0000 | LR: 6.21e-06
+[2026-07-25 18:17:00] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2220 | Epoch 2.09] Training Loss: 0.0000 | LR: 6.08e-06
+[2026-07-25 18:17:13] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2240 | Epoch 2.11] Training Loss: 0.0000 | LR: 5.96e-06
+[2026-07-25 18:17:25] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2260 | Epoch 2.13] Training Loss: 0.0000 | LR: 5.83e-06
+[2026-07-25 18:17:37] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2280 | Epoch 2.14] Training Loss: 0.0000 | LR: 5.71e-06
+[2026-07-25 18:17:50] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2300 | Epoch 2.16] Training Loss: 0.0000 | LR: 5.58e-06
+[2026-07-25 18:18:02] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2320 | Epoch 2.18] Training Loss: 0.0000 | LR: 5.46e-06
+[2026-07-25 18:18:14] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2340 | Epoch 2.20] Training Loss: 0.0000 | LR: 5.33e-06
+[2026-07-25 18:18:26] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2360 | Epoch 2.22] Training Loss: 0.0000 | LR: 5.21e-06
+[2026-07-25 18:18:39] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2380 | Epoch 2.24] Training Loss: 0.0000 | LR: 5.08e-06
+[2026-07-25 18:18:51] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2400 | Epoch 2.26] Training Loss: 0.0000 | LR: 4.95e-06
+[2026-07-25 18:19:03] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2420 | Epoch 2.28] Training Loss: 0.0000 | LR: 4.83e-06
+[2026-07-25 18:19:15] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2440 | Epoch 2.30] Training Loss: 0.0000 | LR: 4.70e-06
+[2026-07-25 18:19:28] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2460 | Epoch 2.31] Training Loss: 0.0000 | LR: 4.58e-06
+[2026-07-25 18:19:40] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2480 | Epoch 2.33] Training Loss: 0.0000 | LR: 4.45e-06
+[2026-07-25 18:19:52] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2500 | Epoch 2.35] Training Loss: 0.0000 | LR: 4.33e-06
+[2026-07-25 18:20:05] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2520 | Epoch 2.37] Training Loss: 0.0000 | LR: 4.20e-06
+[2026-07-25 18:20:17] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2540 | Epoch 2.39] Training Loss: 0.0000 | LR: 4.08e-06
+[2026-07-25 18:20:29] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2560 | Epoch 2.41] Training Loss: 0.0000 | LR: 3.95e-06
+[2026-07-25 18:20:41] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2580 | Epoch 2.43] Training Loss: 0.0000 | LR: 3.83e-06
+[2026-07-25 18:20:54] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2600 | Epoch 2.45] Training Loss: 0.0000 | LR: 3.70e-06
+[2026-07-25 18:21:06] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2620 | Epoch 2.46] Training Loss: 0.0000 | LR: 3.57e-06
+[2026-07-25 18:21:18] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2640 | Epoch 2.48] Training Loss: 0.0000 | LR: 3.45e-06
+[2026-07-25 18:21:30] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2660 | Epoch 2.50] Training Loss: 0.0000 | LR: 3.32e-06
+[2026-07-25 18:21:43] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2680 | Epoch 2.52] Training Loss: 0.0000 | LR: 3.20e-06
+[2026-07-25 18:21:55] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2700 | Epoch 2.54] Training Loss: 0.0000 | LR: 3.07e-06
+[2026-07-25 18:22:07] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2720 | Epoch 2.56] Training Loss: 0.0000 | LR: 2.95e-06
+[2026-07-25 18:22:19] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2740 | Epoch 2.58] Training Loss: 0.0000 | LR: 2.82e-06
+[2026-07-25 18:22:32] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2760 | Epoch 2.60] Training Loss: 0.0000 | LR: 2.70e-06
+[2026-07-25 18:22:44] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2780 | Epoch 2.62] Training Loss: 0.0000 | LR: 2.57e-06
+[2026-07-25 18:22:56] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2800 | Epoch 2.63] Training Loss: 0.0000 | LR: 2.45e-06
+[2026-07-25 18:23:09] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2820 | Epoch 2.65] Training Loss: 0.0000 | LR: 2.32e-06
+[2026-07-25 18:23:21] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2840 | Epoch 2.67] Training Loss: 0.0000 | LR: 2.20e-06
+[2026-07-25 18:23:33] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2860 | Epoch 2.69] Training Loss: 0.0000 | LR: 2.07e-06
+[2026-07-25 18:23:45] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2880 | Epoch 2.71] Training Loss: 0.0000 | LR: 1.94e-06
+[2026-07-25 18:23:58] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2900 | Epoch 2.73] Training Loss: 0.0000 | LR: 1.82e-06
+[2026-07-25 18:24:10] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2920 | Epoch 2.75] Training Loss: 0.0000 | LR: 1.69e-06
+[2026-07-25 18:24:22] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2940 | Epoch 2.77] Training Loss: 0.0000 | LR: 1.57e-06
+[2026-07-25 18:24:35] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2960 | Epoch 2.78] Training Loss: 0.0000 | LR: 1.44e-06
+[2026-07-25 18:24:47] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  2980 | Epoch 2.80] Training Loss: 0.0000 | LR: 1.32e-06
+[2026-07-25 18:24:59] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3000 | Epoch 2.82] Training Loss: 0.0000 | LR: 1.19e-06
+[2026-07-25 18:25:11] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3020 | Epoch 2.84] Training Loss: 0.0000 | LR: 1.07e-06
+[2026-07-25 18:25:24] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3040 | Epoch 2.86] Training Loss: 0.0000 | LR: 9.41e-07
+[2026-07-25 18:25:36] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3060 | Epoch 2.88] Training Loss: 0.0000 | LR: 8.15e-07
+[2026-07-25 18:25:48] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3080 | Epoch 2.90] Training Loss: 0.0000 | LR: 6.90e-07
+[2026-07-25 18:26:01] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3100 | Epoch 2.92] Training Loss: 0.0000 | LR: 5.64e-07
+[2026-07-25 18:26:13] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3120 | Epoch 2.94] Training Loss: 0.0000 | LR: 4.39e-07
+[2026-07-25 18:26:25] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3140 | Epoch 2.95] Training Loss: 0.0000 | LR: 3.14e-07
+[2026-07-25 18:26:37] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3160 | Epoch 2.97] Training Loss: 0.0000 | LR: 1.88e-07
+[2026-07-25 18:26:50] [INFO] [CodeBERT_Trainer]:  [TRAIN STEP  3180 | Epoch 2.99] Training Loss: 0.0000 | LR: 6.27e-08
+[2026-07-25 18:27:20] [INFO] [CodeBERT_Trainer]: 
+=================================================================
+[2026-07-25 18:27:20] [INFO] [CodeBERT_Trainer]:  >>> REAL-TIME EVALUATION AT EPOCH 3.0 (Step 3189)
+[2026-07-25 18:27:20] [INFO] [CodeBERT_Trainer]: -----------------------------------------------------------------
+[2026-07-25 18:27:20] [INFO] [CodeBERT_Trainer]:   • Validation Loss : 0.0000
+[2026-07-25 18:27:20] [INFO] [CodeBERT_Trainer]:   • Accuracy        : 100.00%  (1.0000)  | F1: 100.00% (1.0000)
+[2026-07-25 18:27:20] [INFO] [CodeBERT_Trainer]:   • Precision       : 100.00%  (1.0000)  | Recall: 100.00% (1.0000)
+[2026-07-25 18:27:20] [INFO] [CodeBERT_Trainer]: =================================================================
+
+[2026-07-25 18:27:24] [INFO] [CodeBERT_Trainer]: Training completed. Total Training Loss: 0.0040
+[2026-07-25 18:27:24] [INFO] [CodeBERT_Trainer]: Running final evaluation on validation set...
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: 
+=================================================================
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:  >>> REAL-TIME EVALUATION AT EPOCH 3.0 (Step 3189)
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: -----------------------------------------------------------------
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   • Validation Loss : 0.0000
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   • Accuracy        : 100.00%  (1.0000)  | F1: 100.00% (1.0000)
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   • Precision       : 100.00%  (1.0000)  | Recall: 100.00% (1.0000)
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: =================================================================
+
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: ========================================
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: FINAL VALIDATION METRICS:
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - LOSS        : 0.0000
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - ACCURACY    : 1.0000
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - PRECISION   : 1.0000
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - RECALL      : 1.0000
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - F1          : 1.0000
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - ROC_AUC     : 1.0000
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - RUNTIME     : 25.3636
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - SAMPLES_PER_SECOND: 118.2800
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]:   - STEPS_PER_SECOND: 7.4120
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: ========================================
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: Overwriting/saving fine-tuned model and tokenizer to: './saved_model'
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: Model artifacts successfully saved to './saved_model'!
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: Detailed training report saved to root file: 'training_results.txt'
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: Report copy saved inside model directory: './saved_model\training_results.txt'
+[2026-07-25 18:27:50] [INFO] [CodeBERT_Trainer]: Training pipeline completed successfully.
